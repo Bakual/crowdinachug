@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="3.4" method="upgrade">
+	<name>Achali (ach-UG)</name>
+	<packagename>ach-UG</packagename>
+	<version>3.5.0</version>
+	<creationDate>2015-11-11</creationDate>
+	<author>Joomla! Project</author>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<description>Crowdin Pseudolanguage for in-context translation</description>
+	<files>
+		<folder type="language" client="site" id="ach-UG">site_ach-UG</folder>
+		<folder type="language" client="administrator" id="ach-UG">admin_ach-UG</folder>
+		<folder type="plugin" group="system" id="crowdinincontext">plg_system_crowdinincontext</folder>
+	</files>
+</extension>

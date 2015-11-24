@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metafile version="3.5" client="site">
+	<name>Achali (ach-UG)</name>
+	<version>3.5.0</version>
+	<creationDate>2015-11-11</creationDate>
+	<author>Joomla! Project</author>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<copyright>Copyright (C) 2005 - 2015 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description>Crowdin Pseudolanguage for in-context translation - Site</description>
+	<metadata>
+		<name>Achali (ach-UG)</name>
+		<tag>ach-UG</tag>
+		<rtl>0</rtl>
+		<locale>ach_UG.utf8, ach_UG.UTF-8, ach_UG, ach</locale>
+		<firstDay>0</firstDay>
+		<weekEnd>0,6</weekEnd>
+	</metadata>
+	<params />
+</metafile>
