@@ -1,90 +1,90 @@
-<?php
-/**
- * @package    Joomla.Language
- *
- * @copyright  Copyright (C) 2005 - 2015 Open Source Matters, Inc. All rights reserved.
- * @license    GNU General Public License version 2 or later; see LICENSE.txt
- */
+crwdns14567:0crwdne14567:0
+crwdns14568:0crwdne14568:0
+ crwdns14569:0crwdne14569:0
+ crwdns14570:0crwdne14570:0
+ crwdns20649:0crwdne20649:0 crwdns14572:0crwdne14572:0
+ crwdns14573:0crwdne14573:0
+ crwdns14574:0crwdne14574:0
 
-defined('_JEXEC') or die;
+crwdns14575:0crwdne14575:0
 
-/**
- * ach-UG localise class.
- *
- * @since  1.6
- */
-abstract class Ach_UGLocalise
-{
-	/**
-	 * Returns the potential suffixes for a specific number of items
-	 *
-	 * @param   integer  $count  The number of items.
-	 *
-	 * @return  array  An array of potential suffixes.
-	 *
-	 * @since   1.6
-	 */
-	public static function getPluralSuffixes($count)
-	{
-		if ($count == 0)
-		{
-			return array('0');
-		}
-		elseif ($count == 1)
-		{
-			return array('1');
-		}
-		else
-		{
-			return array('MORE');
-		}
-	}
+crwdns20650:0crwdne20650:0
+ crwdns14577:0crwdne14577:0
+ crwdns20651:0crwdne20651:0
+ crwdns14579:0crwdne14579:0
+ crwdns20652:0crwdne20652:0
+crwdns14581:0crwdne14581:0
+crwdns14582:0crwdne14582:0
+	crwdns20653:0crwdne20653:0
+	 crwdns14584:0crwdne14584:0
+	 crwdns20654:0crwdne20654:0
+	 crwdns14883:0$countcrwdne14883:0
+	 crwdns20655:0crwdne20655:0
+	 crwdns14588:0crwdne14588:0
+	 crwdns20656:0crwdne20656:0
+	 crwdns14590:0crwdne14590:0
+	 crwdns20657:0crwdne20657:0
+	crwdns14592:0$countcrwdne14592:0
+	crwdns20658:0crwdne20658:0
+		crwdns14594:0$countcrwdne14594:0
+		crwdns20659:0crwdne20659:0
+			crwdns14884:0crwdne14884:0
+		crwdns14597:0crwdne14597:0
+		crwdns14598:0$countcrwdne14598:0
+		crwdns20660:0crwdne20660:0
+			crwdns14885:0crwdne14885:0
+		crwdns20661:0crwdne20661:0
+		crwdns14602:0crwdne14602:0
+		crwdns20662:0crwdne20662:0
+			crwdns14886:0crwdne14886:0
+		crwdns20663:0crwdne20663:0
+	crwdns20664:0crwdne20664:0
 
-	/**
-	 * Returns the ignored search words
-	 *
-	 * @return  array  An array of ignored search words.
-	 *
-	 * @since   1.6
-	 */
-	public static function getIgnoredSearchWords()
-	{
-		return array('and', 'in', 'on');
-	}
+	crwdns20665:0crwdne20665:0
+	 crwdns14609:0crwdne14609:0
+	 crwdns20666:0crwdne20666:0
+	 crwdns14611:0crwdne14611:0
+	 crwdns20667:0crwdne20667:0
+	 crwdns20668:0crwdne20668:0
+	 crwdns20669:0crwdne20669:0
+	crwdns14615:0crwdne14615:0
+	crwdns20670:0crwdne20670:0
+		crwdns14887:0crwdne14887:0
+	crwdns20671:0crwdne20671:0
 
-	/**
-	 * Returns the lower length limit of search words
-	 *
-	 * @return  integer  The lower length limit of search words.
-	 *
-	 * @since   1.6
-	 */
-	public static function getLowerLimitSearchWord()
-	{
-		return 3;
-	}
+	crwdns20672:0crwdne20672:0
+	 crwdns14624:0crwdne14624:0
+	 crwdns20673:0crwdne20673:0
+	 crwdns14626:0crwdne14626:0
+	 crwdns20674:0crwdne20674:0
+	 crwdns20675:0crwdne20675:0
+	 crwdns20676:0crwdne20676:0
+	crwdns14630:0crwdne14630:0
+	crwdns20677:0crwdne20677:0
+		crwdns14632:0crwdne14632:0
+	crwdns20678:0crwdne20678:0
 
-	/**
-	 * Returns the upper length limit of search words
-	 *
-	 * @return  integer  The upper length limit of search words.
-	 *
-	 * @since   1.6
-	 */
-	public static function getUpperLimitSearchWord()
-	{
-		return 20;
-	}
+	crwdns20679:0crwdne20679:0
+	 crwdns14635:0crwdne14635:0
+	 crwdns20680:0crwdne20680:0
+	 crwdns14637:0crwdne14637:0
+	 crwdns20681:0crwdne20681:0
+	 crwdns20682:0crwdne20682:0
+	 crwdns20683:0crwdne20683:0
+	crwdns14641:0crwdne14641:0
+	crwdns20684:0crwdne20684:0
+		crwdns14643:0crwdne14643:0
+	crwdns20685:0crwdne20685:0
 
-	/**
-	 * Returns the number of chars to display when searching
-	 *
-	 * @return  integer  The number of chars to display when searching.
-	 *
-	 * @since   1.6
-	 */
-	public static function getSearchDisplayedCharactersNumber()
-	{
-		return 200;
-	}
-}
+	crwdns20686:0crwdne20686:0
+	 crwdns14646:0crwdne14646:0
+	 crwdns20687:0crwdne20687:0
+	 crwdns14648:0crwdne14648:0
+	 crwdns20688:0crwdne20688:0
+	 crwdns20689:0crwdne20689:0
+	 crwdns20690:0crwdne20690:0
+	crwdns14652:0crwdne14652:0
+	crwdns20691:0crwdne20691:0
+		crwdns14654:0crwdne14654:0
+	crwdns20692:0crwdne20692:0
+crwdns20693:0crwdne20693:0
