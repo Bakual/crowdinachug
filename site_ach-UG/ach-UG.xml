@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<metafile version="3.8" client="site">
-	<name>crwdns19164:0crwdne19164:0</name>
-	<version>crwdns19165:0crwdne19165:0</version>
-	<creationDate>crwdns19166:0crwdne19166:0</creationDate>
-	<author>crwdns19167:0crwdne19167:0</author>
-	<authorEmail>crwdns19168:0crwdne19168:0</authorEmail>
-	<authorUrl>crwdns19169:0crwdne19169:0</authorUrl>
-	<copyright>crwdns19170:0crwdne19170:0</copyright>
+<metafile version="3.7" client="site">
+	<name>Achali (ach-UG)</name>
+	<version>3.7.0</version>
+	<creationDate>2017-04-20</creationDate>
+	<author>Joomla! Project</author>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<copyright>Copyright (C) 2005 - 2017 Open Source Matters. All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<description><![CDATA[crwdns19171:0crwdne19171:0]]></description>
+	<description>Crowdin Pseudolanguage for in-context translation - Site</description>
 	<metadata>
-		<name>crwdns19172:0crwdne19172:0</name>
-		<nativeName>crwdns19173:0crwdne19173:0</nativeName>
-		<tag>crwdns19174:0crwdne19174:0</tag>
-		<rtl>crwdns19175:0crwdne19175:0</rtl>
-		<locale>crwdns19176:0crwdne19176:0</locale>
-		<firstDay>crwdns19177:0crwdne19177:0</firstDay>
-		<weekEnd>crwdns19178:0crwdne19178:0</weekEnd>
-		<calendar>crwdns19633:0crwdne19633:0</calendar>
+		<name>Achali (ach-UG)</name>
+		<tag>ach-UG</tag>
+		<rtl>0</rtl>
+		<locale>ach_UG.utf8, ach_UG.UTF-8, ach_UG, ach</locale>
+		<firstDay>0</firstDay>
+		<weekEnd>0,6</weekEnd>
 	</metadata>
 	<params />
 </metafile>

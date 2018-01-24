@@ -1,26 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<extension type="package" version="3.8" method="upgrade">
-	<name>crwdns14891:0crwdne14891:0</name>
-	<packagename>crwdns14892:0crwdne14892:0</packagename>
-	<version>crwdns23137:0crwdne23137:0</version>
-	<creationDate>crwdns23138:0crwdne23138:0</creationDate>
-	<author>crwdns14895:0crwdne14895:0</author>
-	<authorEmail>crwdns14896:0crwdne14896:0</authorEmail>
-	<authorUrl>crwdns14897:0crwdne14897:0</authorUrl>
-	<copyright>Copyright (C) 2005 - 2017 Open Source Matters, Inc. All rights reserved.</copyright>
-	<license>https://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
-	<url>https://github.com/joomla/joomla-cms</url>
-	<packager>Joomla! Project</packager>
-	<packagerurl>www.joomla.org</packagerurl>
-	<description><![CDATA[crwdns14898:0crwdne14898:0]]></description>
-	<blockChildUninstall>true</blockChildUninstall>
+<extension type="package" version="3.4" method="upgrade">
+	<name>Achali (ach-UG)</name>
+	<packagename>ach-UG</packagename>
+	<version>3.5.0</version>
+	<creationDate>2015-11-11</creationDate>
+	<author>Joomla! Project</author>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<description>Crowdin Pseudolanguage for in-context translation</description>
 	<files>
-		<folder type="language" client="site" id="en-GB">crwdns14900:0crwdne14900:0</folder>
-		<folder type="language" client="administrator" id="en-GB">crwdns14902:0crwdne14902:0</folder>
+		<folder type="language" client="site" id="ach-UG">site_ach-UG</folder>
+		<folder type="language" client="administrator" id="ach-UG">admin_ach-UG</folder>
+		<folder type="plugin" group="system" id="crowdinincontext">plg_system_crowdinincontext</folder>
 	</files>
-	<updateservers>
-		<server type="collection" priority="1" name="Accredited Joomla! Translations">
-			https://update.joomla.org/language/translationlist_3.xml
-		</server>
-	</updateservers>
 </extension>

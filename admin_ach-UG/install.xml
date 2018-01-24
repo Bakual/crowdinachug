@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension version="3.8" client="administrator" type="language" method="upgrade">
-	<name>crwdns14661:0crwdne14661:0</name>
-	<tag>crwdns14662:0crwdne14662:0</tag>
-	<version>crwdns14663:0crwdne14663:0</version>
-	<creationDate>crwdns14664:0crwdne14664:0</creationDate>
-	<author>crwdns14665:0crwdne14665:0</author>
-	<authorEmail>crwdns14666:0crwdne14666:0</authorEmail>
-	<authorUrl>crwdns14667:0crwdne14667:0</authorUrl>
-	<copyright>crwdns14668:0crwdne14668:0</copyright>
+<extension version="3.7" client="administrator" type="language" method="upgrade">
+	<name>Achali (ach-UG)</name>
+	<tag>ach-UG</tag>
+	<version>3.7.0</version>
+	<creationDate>2017-04-20</creationDate>
+	<author>Joomla! Project</author>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<copyright>Copyright (C) 2005 - 2017 Open Source Matters. All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<description>crwdns14669:0crwdne14669:0</description>
+	<description>Crowdin Pseudolanguage for in-context translation - Administrator</description>
 	<files>
 		<folder>/</folder>
-		<filename file="meta">crwdns14670:0crwdne14670:0</filename>
+		<filename file="meta">install.xml</filename>
 	</files>
 	<params />
 </extension>
