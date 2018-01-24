@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<metafile version="3.7" client="site">
+<metafile version="3.8" client="site">
 	<name>Achali (ach-UG)</name>
-	<version>3.7.0</version>
-	<creationDate>2017-04-20</creationDate>
+	<nativeName>Achali Pseudolanguage</nativeName>
+	<version>3.8.0</version>
+	<creationDate>2018-01-24</creationDate>
 	<author>Joomla! Project</author>
 	<authorEmail>admin@joomla.org</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
-	<copyright>Copyright (C) 2005 - 2017 Open Source Matters. All rights reserved.</copyright>
+	<copyright>Copyright (C) 2005 - 2018 Open Source Matters. All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description>Crowdin Pseudolanguage for in-context translation - Site</description>
 	<metadata>
@@ -16,6 +17,7 @@
 		<locale>ach_UG.utf8, ach_UG.UTF-8, ach_UG, ach</locale>
 		<firstDay>0</firstDay>
 		<weekEnd>0,6</weekEnd>
+		<calendar>gregorian</calendar>
 	</metadata>
 	<params />
 </metafile>

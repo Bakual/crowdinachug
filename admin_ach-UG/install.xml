@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension version="3.7" client="administrator" type="language" method="upgrade">
+<extension version="3.8" client="administrator" type="language" method="upgrade">
 	<name>Achali (ach-UG)</name>
 	<tag>ach-UG</tag>
-	<version>3.7.0</version>
-	<creationDate>2017-04-20</creationDate>
+	<version>3.8.0</version>
+	<creationDate>2018-01-24</creationDate>
 	<author>Joomla! Project</author>
 	<authorEmail>admin@joomla.org</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
-	<copyright>Copyright (C) 2005 - 2017 Open Source Matters. All rights reserved.</copyright>
+	<copyright>Copyright (C) 2005 - 2018 Open Source Matters. All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description>Crowdin Pseudolanguage for in-context translation - Administrator</description>
 	<files>
