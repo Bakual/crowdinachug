@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<metafile version="3.8" client="site">
+<metafile version="3.9" client="site">
 	<name>Achali (ach-UG)</name>
 	<nativeName>Achali Pseudolanguage</nativeName>
-	<version>3.8.0</version>
-	<creationDate>2018-01-24</creationDate>
+	<version>3.9.15</version>
+	<creationDate>2020-02-27</creationDate>
 	<author>Joomla! Project</author>
 	<authorEmail>admin@joomla.org</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
-	<copyright>Copyright (C) 2005 - 2018 Open Source Matters. All rights reserved.</copyright>
+	<copyright>Copyright (C) 2005 - 2020 Open Source Matters. All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description>Crowdin Pseudolanguage for in-context translation - Site</description>
 	<metadata>
