@@ -31,7 +31,7 @@ class PlgSystemCrowdinincontext extends JPlugin
 	 *
 	 * @since   3.4
 	 */
-	public function onAfterRoute()
+	public function onAfterDispatch()
 	{
 		// Only act on HTML pages
 		if ($this->app->input->get('format', 'html') != 'html')
@@ -39,17 +39,23 @@ class PlgSystemCrowdinincontext extends JPlugin
 			return;
 		}
 
+
 		// Only act when Crowdin Pseudolanguage is active
-		if (JFactory::getLanguage()->getTag() != 'ach-UG')
+		if ($this->app->getLanguage()->getTag() != 'ach-UG')
 		{
 			return;
 		}
 
-		$doc = JFactory::getDocument();
-		$doc->addScriptDeclaration("
-			var _jipt = [];
-			_jipt.push(['project', 'joomla-cms']);
-		");
-		$doc->addScript('//cdn.crowdin.com/jipt/jipt.js', 'text/javascript', true, true);
+		$assetManager = $this->app->getDocument()->getWebAssetManager();
+		$assetManager->registerAndUseScript(
+			'crowdin.jipt',
+			'//cdn.crowdin.com/jipt/jipt.js',
+		);
+		$assetManager->addInlineScript("var _jipt = [];
+			_jipt.push(['project', 'joomla-cms']);",
+			['position' => 'before'],
+			[],
+			['crowdin.jipt']
+		);
 	}
 }

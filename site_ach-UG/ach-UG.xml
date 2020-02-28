@@ -10,7 +10,8 @@
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description>Crowdin Pseudolanguage for in-context translation - Site</description>
 	<metadata>
-		<name>Achali (ach-UG)</name>
+		<name>Achali (Crowdin Pseudolanguage)</name>
+		<nativeName>Achali (Crowdin Pseudolanguage)</nativeName>
 		<tag>ach-UG</tag>
 		<rtl>0</rtl>
 		<locale>ach_UG.utf8, ach_UG.UTF-8, ach_UG, ach</locale>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile version="3.9" client="site">
 	<name>Achali (ach-UG)</name>
-	<nativeName>Achali Pseudolanguage</nativeName>
 	<version>3.9.15</version>
 	<creationDate>2020-02-27</creationDate>
 	<author>Joomla! Project</author>
@@ -11,7 +10,8 @@
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description>Crowdin Pseudolanguage for in-context translation - Site</description>
 	<metadata>
-		<name>Achali (ach-UG)</name>
+		<name>Achali (Crowdin Pseudolanguage)</name>
+		<nativeName>Achali (Crowdin Pseudolanguage)</nativeName>
 		<tag>ach-UG</tag>
 		<rtl>0</rtl>
 		<locale>ach_UG.utf8, ach_UG.UTF-8, ach_UG, ach</locale>
