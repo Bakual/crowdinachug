@@ -1,90 +1,90 @@
-crwdns89123:0crwdne89123:0
-crwdns89125:0crwdne89125:0
- crwdns89127:0crwdne89127:0
- crwdns89129:0crwdne89129:0
- crwdns89131:0crwdne89131:0 crwdns89133:0crwdne89133:0
- crwdns89135:0crwdne89135:0
- crwdns89137:0crwdne89137:0
+<?php
+/**
+ * @package    Joomla.Language
+ *
+ * @copyright  Copyright (C) 2005 - 2018 Open Source Matters, Inc. All rights reserved.
+ * @license    GNU General Public License version 2 or later; see LICENSE.txt
+ */
 
-crwdns89139:0crwdne89139:0
+defined('_JEXEC') or die;
 
-crwdns89141:0crwdne89141:0
- crwdns89143:0crwdne89143:0
- crwdns89145:0crwdne89145:0
- crwdns89147:0crwdne89147:0
- crwdns89149:0crwdne89149:0
-crwdns89151:0crwdne89151:0
-crwdns89153:0crwdne89153:0
-	crwdns89155:0crwdne89155:0
-	 crwdns89157:0crwdne89157:0
-	 crwdns89159:0crwdne89159:0
-	 crwdns89161:0$countcrwdne89161:0
-	 crwdns89163:0crwdne89163:0
-	 crwdns89165:0crwdne89165:0
-	 crwdns89167:0crwdne89167:0
-	 crwdns89169:0crwdne89169:0
-	 crwdns89171:0crwdne89171:0
-	crwdns89173:0$countcrwdne89173:0
-	crwdns89175:0crwdne89175:0
-		crwdns89177:0$countcrwdne89177:0
-		crwdns89179:0crwdne89179:0
-			crwdns89181:0crwdne89181:0
-		crwdns89183:0crwdne89183:0
-		crwdns89185:0$countcrwdne89185:0
-		crwdns89187:0crwdne89187:0
-			crwdns89189:0crwdne89189:0
-		crwdns89191:0crwdne89191:0
-		crwdns89193:0crwdne89193:0
-		crwdns89195:0crwdne89195:0
-			crwdns89197:0crwdne89197:0
-		crwdns89199:0crwdne89199:0
-	crwdns89201:0crwdne89201:0
+/**
+ * ach-UG localise class.
+ *
+ * @since  1.6
+ */
+abstract class Ach_UGLocalise
+{
+	/**
+	 * Returns the potential suffixes for a specific number of items
+	 *
+	 * @param   integer  $count  The number of items.
+	 *
+	 * @return  array  An array of potential suffixes.
+	 *
+	 * @since   1.6
+	 */
+	public static function getPluralSuffixes($count)
+	{
+		if ($count == 0)
+		{
+			return array('0');
+		}
+		elseif ($count == 1)
+		{
+			return array('1');
+		}
+		else
+		{
+			return array('MORE');
+		}
+	}
 
-	crwdns89203:0crwdne89203:0
-	 crwdns89205:0crwdne89205:0
-	 crwdns89207:0crwdne89207:0
-	 crwdns89209:0crwdne89209:0
-	 crwdns89211:0crwdne89211:0
-	 crwdns89213:0crwdne89213:0
-	 crwdns89215:0crwdne89215:0
-	crwdns89217:0crwdne89217:0
-	crwdns89219:0crwdne89219:0
-		crwdns89221:0crwdne89221:0
-	crwdns89223:0crwdne89223:0
+	/**
+	 * Returns the ignored search words
+	 *
+	 * @return  array  An array of ignored search words.
+	 *
+	 * @since   1.6
+	 */
+	public static function getIgnoredSearchWords()
+	{
+		return array('and', 'in', 'on');
+	}
 
-	crwdns89225:0crwdne89225:0
-	 crwdns89227:0crwdne89227:0
-	 crwdns89229:0crwdne89229:0
-	 crwdns89231:0crwdne89231:0
-	 crwdns89233:0crwdne89233:0
-	 crwdns89235:0crwdne89235:0
-	 crwdns89237:0crwdne89237:0
-	crwdns89239:0crwdne89239:0
-	crwdns89241:0crwdne89241:0
-		crwdns89243:0crwdne89243:0
-	crwdns89245:0crwdne89245:0
+	/**
+	 * Returns the lower length limit of search words
+	 *
+	 * @return  integer  The lower length limit of search words.
+	 *
+	 * @since   1.6
+	 */
+	public static function getLowerLimitSearchWord()
+	{
+		return 3;
+	}
 
-	crwdns89247:0crwdne89247:0
-	 crwdns89249:0crwdne89249:0
-	 crwdns89251:0crwdne89251:0
-	 crwdns89253:0crwdne89253:0
-	 crwdns89255:0crwdne89255:0
-	 crwdns89257:0crwdne89257:0
-	 crwdns89259:0crwdne89259:0
-	crwdns89261:0crwdne89261:0
-	crwdns89263:0crwdne89263:0
-		crwdns89265:0crwdne89265:0
-	crwdns89267:0crwdne89267:0
+	/**
+	 * Returns the upper length limit of search words
+	 *
+	 * @return  integer  The upper length limit of search words.
+	 *
+	 * @since   1.6
+	 */
+	public static function getUpperLimitSearchWord()
+	{
+		return 20;
+	}
 
-	crwdns89269:0crwdne89269:0
-	 crwdns89271:0crwdne89271:0
-	 crwdns89273:0crwdne89273:0
-	 crwdns89275:0crwdne89275:0
-	 crwdns89277:0crwdne89277:0
-	 crwdns89279:0crwdne89279:0
-	 crwdns89281:0crwdne89281:0
-	crwdns89283:0crwdne89283:0
-	crwdns89285:0crwdne89285:0
-		crwdns89287:0crwdne89287:0
-	crwdns89289:0crwdne89289:0
-crwdns89291:0crwdne89291:0
+	/**
+	 * Returns the number of chars to display when searching
+	 *
+	 * @return  integer  The number of chars to display when searching.
+	 *
+	 * @since   1.6
+	 */
+	public static function getSearchDisplayedCharactersNumber()
+	{
+		return 200;
+	}
+}

@@ -1,42 +1,90 @@
-crwdns93657:0crwdne93657:0
-crwdns93659:0crwdne93659:0
- crwdns93661:0crwdne93661:0
- crwdns93663:0crwdne93663:0
- crwdns93665:0crwdne93665:0 crwdns93667:0crwdne93667:0
- crwdns93669:0crwdne93669:0
- crwdns93671:0crwdne93671:0
+<?php
+/**
+ * @package    Joomla.Language
+ *
+ * @copyright  Copyright (C) 2005 - 2018 Open Source Matters, Inc. All rights reserved.
+ * @license    GNU General Public License version 2 or later; see LICENSE.txt
+ */
 
-crwdns93673:0crwdne93673:0
+defined('_JEXEC') or die;
 
-crwdns93675:0crwdne93675:0
- crwdns93677:0crwdne93677:0
- crwdns93679:0crwdne93679:0
- crwdns93681:0crwdne93681:0
- crwdns93683:0crwdne93683:0
-crwdns93685:0crwdne93685:0
-crwdns93687:0crwdne93687:0
-	crwdns93689:0crwdne93689:0
-	 crwdns93691:0crwdne93691:0
-	 crwdns93693:0crwdne93693:0
-	 crwdns93695:0$countcrwdne93695:0
-	 crwdns93697:0crwdne93697:0
-	 crwdns93699:0crwdne93699:0
-	 crwdns93701:0crwdne93701:0
-	 crwdns93703:0crwdne93703:0
-	 crwdns93705:0crwdne93705:0
-	crwdns93707:0$countcrwdne93707:0
-	crwdns93709:0crwdne93709:0
-		crwdns93711:0$countcrwdne93711:0
-		crwdns93713:0crwdne93713:0
-			crwdns93715:0crwdne93715:0
-		crwdns93717:0crwdne93717:0
-		crwdns93719:0$countcrwdne93719:0
-		crwdns93721:0crwdne93721:0
-			crwdns93723:0crwdne93723:0
-		crwdns93725:0crwdne93725:0
-		crwdns93727:0crwdne93727:0
-		crwdns93729:0crwdne93729:0
-			crwdns93731:0crwdne93731:0
-		crwdns93733:0crwdne93733:0
-	crwdns93735:0crwdne93735:0
-crwdns93737:0crwdne93737:0
+/**
+ * ach-UG localise class.
+ *
+ * @since  1.6
+ */
+abstract class Ach_UGLocalise
+{
+	/**
+	 * Returns the potential suffixes for a specific number of items
+	 *
+	 * @param   integer  $count  The number of items.
+	 *
+	 * @return  array  An array of potential suffixes.
+	 *
+	 * @since   1.6
+	 */
+	public static function getPluralSuffixes($count)
+	{
+		if ($count == 0)
+		{
+			return array('0');
+		}
+		elseif ($count == 1)
+		{
+			return array('1');
+		}
+		else
+		{
+			return array('MORE');
+		}
+	}
+
+	/**
+	 * Returns the ignored search words
+	 *
+	 * @return  array  An array of ignored search words.
+	 *
+	 * @since   1.6
+	 */
+	public static function getIgnoredSearchWords()
+	{
+		return array('and', 'in', 'on');
+	}
+
+	/**
+	 * Returns the lower length limit of search words
+	 *
+	 * @return  integer  The lower length limit of search words.
+	 *
+	 * @since   1.6
+	 */
+	public static function getLowerLimitSearchWord()
+	{
+		return 3;
+	}
+
+	/**
+	 * Returns the upper length limit of search words
+	 *
+	 * @return  integer  The upper length limit of search words.
+	 *
+	 * @since   1.6
+	 */
+	public static function getUpperLimitSearchWord()
+	{
+		return 20;
+	}
+
+	/**
+	 * Returns the number of chars to display when searching
+	 *
+	 * @return  integer  The number of chars to display when searching.
+	 *
+	 * @since   1.6
+	 */
+	public static function getSearchDisplayedCharactersNumber()
+	{
+		return 200;
+	}
+}
