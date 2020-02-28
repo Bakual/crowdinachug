@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<metafile version="3.9" client="site">
+<metafile version="4.0" client="site">
 	<name>Achali (ach-UG)</name>
-	<version>3.9.15</version>
+	<version>4.0-dev</version>
 	<creationDate>2020-02-27</creationDate>
 	<author>Joomla! Project</author>
 	<authorEmail>admin@joomla.org</authorEmail>

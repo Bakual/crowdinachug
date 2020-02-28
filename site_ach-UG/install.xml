@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension version="3.9" client="site" type="language" method="upgrade">
+<extension version="4.0" client="site" type="language" method="upgrade">
 	<name>Achali (ach-UG)</name>
 	<nativeName>Achali Pseudolanguage</nativeName>
 	<tag>ach-UG</tag>
-	<version>3.9.15</version>
+	<version>4.0-dev</version>
 	<creationDate>2020-02-27</creationDate>
 	<author>Joomla! Project</author>
 	<authorEmail>admin@joomla.org</authorEmail>
